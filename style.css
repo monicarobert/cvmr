@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color: #000;
+}
+h1 {
+  color: grey;
+}
+
+h2 {
+  color: grey;
+}
+
+ section
+{
+    margin: auto;
+    color: grey;
+}
+
+#page {
+     margin-left: 10%;
+     margin-right: 10%;
+     display: flex;
+     justify-content:space-around;
+
+     background-color: #FFF;
+}
+
+#page aside {
+    width: 30%;
+    background-color: #F2BD0B;
+    color: #ffffff;
+}
+
+#page aside img {
+    border-radius: 20%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#page aside h3 {
+    background-color: grey;
+    color: #F2BD0B;
+    text-align: center;
+    padding: 5px;
+}
+
+#icons {
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+#page p.content {
+    margin-left: 10%;
+    font-size: 1.1em;
+}
+
+#page main {
+    width: 70%;
+    margin-left: 5%;
+
+}
+
+.tda {
+  text-align:left;
+  width: 150px;
+}
+
+.tdb {
+  text-align:left;
+  width: 220px;
+}
+
+main span {
+    color: #F2BD0B;
+}
+
+#sections {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+hr{
+  margin: 0;
+  align-items: left;
+  width: 70%;
+  height: 2px;
+  background-color: #F2BD0B;
+}
+
+a {
+    color: white;
+}
+
+.rotation90 {
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+
+ .apropos {
+   margin: 4%;
+   text-align: justify;
+ }
